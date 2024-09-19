@@ -26,7 +26,7 @@ layout: default
 
 举例：线性回归（Linear Regression）与逻辑回归（Logistic Regression）
 
-![Local Image](./assets/img/example2.jpg)
+![Local Image](/assets/img/example2.jpg)
 
 ## <mark>总结</mark>
 
