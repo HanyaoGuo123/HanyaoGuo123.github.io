@@ -11,7 +11,7 @@ layout: default
 
 算法每一步骤是清晰无歧义的，且步骤的顺序是固定的，不能无期限的运行，经过一定步骤后自动结束，每次运算时按照相同的’pipeline‘去挖掘处理数据。总而言之，**<mark>算法就是对于获得的海量数据，你是按照什么方法去分析处理，获取信息的。这个方法就是“算法”</mark>**。
 
-举例：排序算法
+举例：排序算法（Sorting algorithm）和动态规划算法（Dynamic Programming Algorithm）
 
 ![Local Image](./assets/img/example1.jpg)
 
@@ -56,12 +56,3 @@ layout: default
 3. 学习常用机器学习算法：线性回归、逻辑回归、RandomForest和SVM等，了解数学原理，并学会用Python对示例数据编写脚本，**学会在github建一个自己的ML project**
 4. 进阶：了解机器学习和深度学习在生物学前沿分析中的应用，思考和自己课题有关的内容和设计
 
-
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
