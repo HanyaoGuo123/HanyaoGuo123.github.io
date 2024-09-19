@@ -13,7 +13,7 @@ layout: default
 
 举例：排序算法（Sorting algorithm）和动态规划算法（Dynamic Programming Algorithm）
 
-!(https://github.com/HanyaoGuo123/HanyaoGuo123.github.io/blob/master/assets/img/example1.png?raw=true)
+![1](https://github.com/HanyaoGuo123/HanyaoGuo123.github.io/blob/master/assets/img/example1.png?raw=true)
 
 排序算法是为了完成排序任务的明确方法步骤
 
@@ -26,7 +26,7 @@ layout: default
 
 举例：线性回归（Linear Regression）与逻辑回归（Logistic Regression）
 
-!(https://github.com/HanyaoGuo123/HanyaoGuo123.github.io/blob/master/assets/img/example2.png?raw=true)
+![2](https://github.com/HanyaoGuo123/HanyaoGuo123.github.io/blob/master/assets/img/example2.png?raw=true)
 
 ## <mark>总结</mark>
 
