@@ -2,117 +2,61 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# 算法与模型的区别
 
-[Link to another page](./another-page.html).
+## 算法（Algorithm）
 
-There should be whitespace between paragraphs.
+* 算法是一个明确的、有序的、有限的步骤集合
+* 是用于解决特定问题或执行一个特定的任务
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+算法每一步骤是清晰无歧义的，且步骤的顺序是固定的，不能无期限的运行，经过一定步骤后自动结束，每次运算时按照相同的’pipeline‘去挖掘处理数据。总而言之，**<mark>算法就是对于获得的海量数据，你是按照什么方法去分析处理，获取信息的。这个方法就是“算法”</mark>**。
 
-# Header 1
+举例：排序算法
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+![Local Image](./assets/img/example1.jpg)
 
-## Header 2
+排序算法是为了完成排序任务的明确方法步骤
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## 模型（Model）
 
-### Header 3
+* 模型是在训练数据上运行机器学习算法后保存的“东西“
+* 模型表示用于预测的”规则“
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+人工智能领域的“**模型**”是指基于已有数据集，运行机器学习算法，所得到的**输出**。可以简单理解为，**<mark>就是通过算法，我们学到的规则</mark>**。
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+举例：线性回归（Linear Regression）与逻辑回归（Logistic Regression）
 
-#### Header 4
+![Local Image](./assets/img/example2.jpg)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## <mark>总结</mark>
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+**模型 = 数据 + 算法**
 
 
-### Definition lists can be used with HTML syntax.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+# Bioinformatics学习计划
+
+## 模块一：NGS基础知识与实践
+
+1. 熟悉常用NGS技术原理：RNA-seq，ChIP-seq，scRNA-seq等
+2. 优化自己之前搭建的NGS raw data上游pipeline，并理解每一步的**作用和数学原理**
+3. 优化之前自己搭建的常用NGS下游pipeline，例Differential Expression  Analysis、GO/KEGG enrichment，着重学习不太熟悉的ChIP-seq和ATAC-seq的motif analysis
+4. 进阶：利用网络资源自学空间转录组分析方法，搭建自己的pipeline
+
+## 模块二：编程基础
+
+1. ~~对R已经较为熟练，继续做巩固练习~~
+2. 主要进一步学习**Linux的基础操作**，尤其是shell语法，学习编写bash脚本进行文件处理<font color=red>（薄弱，重点学习）</font>
+3. 主要加强对**Python**学习和掌握，主要学习**Scanpy**，利用Scanpy分析处理单细胞数据
+
+## 模块三：机器学习/深度学习基础
+
+1. 首先要学习机器学习和深度学习流程的搭建（在github中如何规范存储机器学习和深度学习的文件？规范格式是怎样的？）
+2. 了解基础概念：如什么是**损失函数**，什么是**激活函数**，他们都有怎么样的作用
+3. 学习常用机器学习算法：线性回归、逻辑回归、RandomForest和SVM等，了解数学原理，并学会用Python对示例数据编写脚本，**学会在github建一个自己的ML project**
+4. 进阶：了解机器学习和深度学习在生物学前沿分析中的应用，思考和自己课题有关的内容和设计
+
+
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
